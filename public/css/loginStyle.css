@@ -1,0 +1,237 @@
+body{
+    background-image: url("images/cars.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+
+	background-size: cover;
+    font-family: sans-serif;
+	z-index:-1;
+}
+
+#logo {
+	height: auto;
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 10%;
+	z-index:-1;
+}
+#arrow {
+    width: 5%;
+}
+#line {
+	height:21px;
+    width: 950px;
+	margin-top:2%;
+}
+#login {
+	height: auto;
+  margin-top: 13%;
+
+}
+.login-box{
+    width: 380px;
+    height: 600px;
+	border-radius: 6px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+	padding-bottom:5%;
+	padding-right:5%;
+	padding-left:5%;
+	margin-top:5%;
+	margin-bottom:-7%;
+	
+}
+.login-box fieldset{
+    box-sizing: border-box;  
+	padding-left:10%;
+	margin-top:18%;
+	margin-bottom:1%;
+	margin-right:-12%;
+	margin-left:-12%;
+	
+}
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.login-box input{
+    width: 100%;
+    background: transparent;
+    margin-bottom: 15%;
+}
+.login-box input[type="email"],input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 60px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+	margin-bottom:12%;
+}
+.login-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+
+.login-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.login-box a:hover
+{
+    color: #39dc79;
+}
+.shadow {
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+}
+/********************************** heading decoration **************************************/
+h1 {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 95px;
+  padding: -4% -2%;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+  z-index:1;
+  padding-left: 1%;
+  margin-top:50px;
+}
+h1.elegantshadow {
+    margin-top:70px;
+    color: #ECECF6;
+    text-shadow: -1px -1px 1px #FFFFFF, 1px 1px 1px #000000;
+	  opacity: 0.6;
+}
+/*****************************footer design ***********************************/
+footer{
+   clear: both;
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:1%;
+   padding:2px;
+   margin-bottom:-111px;
+}
+.text {
+  font-size: 15px;
+  font-family: Helvetica;
+  font-style: normal;
+  margin-bottom:-30px;
+}
+/***************************** column divisions ***********************************/
+	/**for desktop*/
+.col-1 {
+	width: 8.33%;
+}
+.col-2 {
+	width: 16.66%;
+}
+.col-3 {
+	width: 25%;
+}
+.col-4 {
+	width: 33.33%;
+}
+.col-5 {
+	width: 41.66%;
+}
+.col-6 {
+	width: 50%;
+}
+.col-7 {
+	width: 58.33%;
+}
+.col-8 {
+	width: 66.66%;
+}
+.col-9 {
+	width: 75%;
+}
+.col-10 {
+	width: 83.33%;
+}
+.col-11 {
+	width: 91.66%;
+}
+.col-12 {
+	width: 100%;
+  }
+/********************************* pop up decoration ******************************/
+/* Popup container - can be anything you want */
+.popup {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #D3D3D3;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
